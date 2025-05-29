@@ -1,0 +1,26 @@
+.tradutor-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 25px;
+  border-radius: 20px;
+  transition: background-color 0.4s ease, color 0.4s ease;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+.bg-dark-mode {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+.bg-light-mode {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.btn-toggle-tema {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.alert-success {
+  transition: all 0.3s ease;
+}
