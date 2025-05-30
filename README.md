@@ -1,4 +1,4 @@
-[Tradutor](tradutor-jfhf3hzdu-gabrieldias00s-projects.vercel.app) é uma aplicação web desenvolvida em React que permite traduzir textos entre diversos idiomas de forma prática e intuitiva. Utilizando a API gratuita do MyMemory Translation, o site possibilita traduções entre línguas como Inglês, Português, Espanhol, Francês, Italiano e Alemão.
+[Tradutor](tradutor-9uyt9waj3-gabrieldias00s-projects.vercel.app/) é uma aplicação web desenvolvida em React que permite traduzir textos entre diversos idiomas de forma prática e intuitiva. Utilizando a API gratuita do MyMemory Translation, o site possibilita traduções entre línguas como Inglês, Português, Espanhol, Francês, Italiano e Alemão.
 
 Funcionalidades:
 - Tradução de textos em tempo real
