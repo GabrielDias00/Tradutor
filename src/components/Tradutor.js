@@ -18,16 +18,23 @@ export default function Tradutor() {
   useEffect(() => {
     setIdiomas([
       { code: "en", name: "Inglês" },
-      { code: "pt", name: "Português" },
+      { code: "pt-BR", name: "Português (Brasil)"},
       { code: "es", name: "Espanhol" },
       { code: "fr", name: "Francês" },
       { code: "it", name: "Italiano" },
       { code: "de", name: "Alemão" },
+      { code: "ja", name: "Japonês" },
+      { code: "elf", name: "Élfico" }
     ]);
   }, []);
 
   const traduzirTexto = async () => {
     if (!texto.trim()) return;
+
+    if (idiomaDestino === "elf") {
+    setTraducao("Traduções élficas só estão disponíveis na Terra Média.");
+    return;
+  }
 
     try {
       const response = await axios.get("https://api.mymemory.translated.net/get", {
