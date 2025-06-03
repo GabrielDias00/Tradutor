@@ -7,7 +7,7 @@ export default function Tradutor() {
   const [texto, setTexto] = useState("");
   const [traducao, setTraducao] = useState("");
   const [idiomaOrigem, setIdiomaOrigem] = useState("en");
-  const [idiomaDestino, setIdiomaDestino] = useState("pt");
+  const [idiomaDestino, setIdiomaDestino] = useState("pt-BR");
   const [idiomas, setIdiomas] = useState([]);
   const [temaEscuro, setTemaEscuro] = useState(false);
 
